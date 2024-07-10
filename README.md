@@ -19,24 +19,24 @@ TyreAPI is a .NET-based restful web API for managing a tyre inventory system. It
 
 1. Clone the repository:
 git clone https://github.com/Bahi-slh/TyreAPI.git
-Copy
+
 2. Navigate to the project directory:
 cd TyreAPI
-Copy
+
 3. Update the connection string in `appsettings.json` to point to your MySQL database.
 
 4. Run the database migrations:
 dotnet ef database update
-Copy
+
 5. Run the application:
 dotnet run
-Copy
+
 6. The API will be available at `https://localhost:7062` or `http://localhost:5062`.
 ## API Documentation
 
 Once the application is running, you can access the Swagger UI for API documentation at:
 https://localhost:7062/swagger
-Copy
+
 ## Features
 
 - Tyre Management: CRUD operations for tyres
