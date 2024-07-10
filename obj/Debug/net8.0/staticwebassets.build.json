@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "AzrqzIAGf2qdRx523Kc30aSVtWwZ4IwLN4ComeGX2Xc=",
+  "Source": "TyreManagementAPI",
+  "BasePath": "_content/TyreManagementAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

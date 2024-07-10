@@ -1,0 +1,46 @@
+@TyreManagementAPI_HostAddress = http://localhost:5062
+
+### Get all tyres
+GET {{TyreManagementAPI_HostAddress}}/api/tyres
+Accept: application/json
+
+### Get a specific tyre
+GET {{TyreManagementAPI_HostAddress}}/api/tyres/1
+Accept: application/json
+
+### Create a new tyre
+POST {{TyreManagementAPI_HostAddress}}/api/tyres
+Content-Type: application/json
+
+{
+  "brand": "Michelin",
+  "model": "Pilot Sport 4",
+  "size": "225/45R17",
+  "price": 150.00,
+  "stockQuantity": 10
+}
+
+### Update a tyre
+PUT {{TyreManagementAPI_HostAddress}}/api/tyres/1
+Content-Type: application/json
+
+{
+  "brand": "Michelin",
+  "model": "Pilot Sport 4",
+  "size": "225/45R17",
+  "price": 160.00,
+  "stockQuantity": 15
+}
+
+### Delete a tyre
+DELETE {{TyreManagementAPI_HostAddress}}/api/tyres/1
+
+### Get all customers
+GET {{TyreManagementAPI_HostAddress}}/api/customers
+Accept: application/json
+
+### Get all orders
+GET {{TyreManagementAPI_HostAddress}}/api/orders
+Accept: application/json
+
+###
