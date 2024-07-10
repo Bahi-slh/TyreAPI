@@ -23,15 +23,10 @@ git clone https://github.com/Bahi-slh/TyreAPI.git
 2. Navigate to the project directory:
 cd TyreAPI
 
-3. Update the connection string in `appsettings.json` to point to your MySQL database.
-
-4. Run the database migrations:
-dotnet ef database update
-
-5. Run the application:
+3. Run the application:
 dotnet run
 
-6. The API will be available at `https://localhost:7062` or `http://localhost:5062`.
+6. The API will be available at `https://localhost:7062/swagger` or `http://localhost:5062/swagger`.
 ## API Documentation
 
 Once the application is running, you can access the Swagger UI for API documentation at:
